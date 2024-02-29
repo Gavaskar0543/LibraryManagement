@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author gavas
+ *
+ */
+module LibraryManagement {
+}
