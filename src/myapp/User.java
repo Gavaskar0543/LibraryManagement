@@ -39,7 +39,9 @@ public class User extends Store {
                         break;
                     case 2:
                         
-                        
+                        System.out.println("Enter 1 for Reader | 2 for Staff");
+                        int ReaderOrStaff = scanner.nextInt();
+                        if(ReaderOrStaff == 1) {
                         System.out.println("Enter Username:");
                         String name = scanner.next();
                         
@@ -57,6 +59,11 @@ public class User extends Store {
                         }
                         Store library = new Store();
                         library.showBooks();
+                        }
+                        else if(ReaderOrStaff == 2) {
+                        	Staff s = new Staff();
+                        	
+                        }
                         
                         break;
                     case 0:
